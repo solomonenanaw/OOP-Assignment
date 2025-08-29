@@ -21,7 +21,4 @@ Create a program that includes animals or vehicles with the same action (like mo
 to clone Git clone  the Repo   https://github.com/solomonenanaw/OOP-Assignment.git
 
 
-Submission:
-Share the link to your GitHub repository with the completed assignment.
 
-Ensure that your repository is public so that it can be accessed for review
