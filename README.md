@@ -17,6 +17,10 @@ Activity 2: Polymorphism Challenge! 🎭
 Create a program that includes animals or vehicles with the same action (like move()). However, make each class define move() differently (for example, Car.move() prints 
 "Driving" 🚗, while Plane.move() prints "Flying" ✈️).
 
+
+to clone Git clone  the Repo   https://github.com/solomonenanaw/OOP-Assignment.git
+
+
 Submission:
 Share the link to your GitHub repository with the completed assignment.
 
