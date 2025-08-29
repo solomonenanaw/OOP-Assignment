@@ -1,32 +1,32 @@
 # Base class
-class Vehicle:
+class Animal:
     def move(self):
         raise NotImplementedError("Subclasses must implement this method.")
 
 # Subclasses with polymorphic behavior
-class Car(Vehicle):
+class Fish(Animal):
     def move(self):
-        return "🚗 Driving on the road"
+        return "Swimming in the lake"
 
-class Plane(Vehicle):
+class Bird(Animal):
     def move(self):
-        return "✈️ Flying in the sky"
+        return " Flying in the sky"
 
-class Boat(Vehicle):
+class Dog(Animal):
     def move(self):
-        return "🛥️ Sailing on the water"
+        return "work, run on the land"
 
-class Bicycle(Vehicle):
+class Snake(Animal):
     def move(self):
-        return "🚴 Pedaling on a bike path"
+        return "Slithering on land"
 
-# Function that demonstrates polymorphism
-def show_vehicle_movement(vehicle):
-    print(vehicle.move())
+# Function demonstrating polymorphism
+def show_movement(animal):
+    print(animal.move())
 
-# Create objects of different vehicle types
-vehicles = [Car(), Plane(), Boat(), Bicycle()]
+# Create objects of different animal types
+animals = [Fish(), Bird(), Dog(), Snake()]
 
 # Loop through and demonstrate polymorphism
-for v in vehicles:
-    show_vehicle_movement(v)
+for animal in animals:
+    show_movement(animal)
