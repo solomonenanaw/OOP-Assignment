@@ -41,8 +41,8 @@ class FlyingSuperhero(Superhero):
         return f"{self.name} takes in the skies!"
 
 # Example usage
-hero = Superhero("Shadow", "Solomon Enanaw", "invisibility")
-flying_hero = FlyingSuperhero("Skyhawk", "Eyosias Solomon Enanaw", "flight and super strength", 500)
+hero = Superhero("Skyeagle", "Solomon Enanaw", "invisibility")
+flying_hero = FlyingSuperhero("Skkyeagle", "Eyosias Solomon Enanaw", "flight and super strength", 500)
 
 print(hero.introduce())
 print(hero.start_fight())
