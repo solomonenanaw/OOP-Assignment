@@ -35,14 +35,14 @@ class FlyingSuperhero(Superhero):
     
     # Polymorphism: override method
     def use_power(self):
-        return f"{self.name} soars through the sky at {self.max_speed} mph!"
+        return f"{self.name} soars in the sky at {self.max_speed} mph!"
     
     def fly(self):
-        return f"{self.name} takes to the skies!"
+        return f"{self.name} takes in the skies!"
 
 # Example usage
-hero = Superhero("Shadow", "Alex Morgan", "invisibility")
-flying_hero = FlyingSuperhero("Skyhawk", "Jamie Chen", "flight and super strength", 500)
+hero = Superhero("Shadow", "Solomon Enanaw", "invisibility")
+flying_hero = FlyingSuperhero("Skyhawk", "Eyosias Solomon Enanaw", "flight and super strength", 500)
 
 print(hero.introduce())
 print(hero.start_fight())
