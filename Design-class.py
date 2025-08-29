@@ -1,4 +1,4 @@
-# Base class
+
 class Superhero:
     def __init__(self, name, secret_identity, powers):
         self.name = name
